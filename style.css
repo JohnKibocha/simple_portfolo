@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+/* Navigation */
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Profile Card */
+.profile-card {
+    padding: 1.5rem;
+    margin-top: 2rem;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+/* Carousel */
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Project Cards */
+.project-card {
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+#contact-form {
+    padding: 2rem;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+}
